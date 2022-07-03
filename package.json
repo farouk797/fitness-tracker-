@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+   
+      "postinstall": "ngcc"
+   
   },
   "private": true,
   "dependencies": {
@@ -14,10 +17,14 @@
     "@angular/common": "^14.0.0",
     "@angular/compiler": "^14.0.0",
     "@angular/core": "^14.0.0",
+    "@angular/fire": "^7.4.1",
     "@angular/forms": "^14.0.0",
+    "@angular/material": "8.2.3",
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
+    "firebase": "^9.8.4",
+    "hammerjs": "^2.0.8",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -35,4 +42,5 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.7.2"
   }
+  
 }
